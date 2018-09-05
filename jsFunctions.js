@@ -18,16 +18,26 @@ console.log(square2(0)); // Must show 0
 console.log(square2(2)); // Must show 4
 console.log(square2(5)); // Must show 25
 
+// square of 0-10
+
+function square() {
+  for (i = 0; i <= 10; i++){
+    console.log (Math.pow (i, 2));
+  }
+}
+square();
+
+
 // TODO: write the min() function
 function min (x, y){
     if (x > y){
-        console.log(y);
+        return x, y;
     }
     if (x < y) {
-        console.log(x);
+        return x, y;
     }
     else {
-        console.log (x)
+        return x, y;
     }
     
 }
