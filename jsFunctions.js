@@ -31,10 +31,10 @@ square();
 // TODO: write the min() function
 function min (x, y){
     if (x > y){
-        return x, y;
+        return y;
     }
     if (x < y) {
-        return x, y;
+        return x;
     }
     else {
         return x, y;
